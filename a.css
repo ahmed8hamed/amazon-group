@@ -1,0 +1,407 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+} 
+
+body{
+    height: 100vh;
+    background-color: hsl(0, 0%, 100%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ nav {
+   width: 100%;
+   height: 35px;
+   padding: 2px 10px; 
+   background-color: black;
+   display: flex;
+   gap: 10px; 
+ opacity: 0.8;
+}
+nav img{
+    width: 30px;
+    height: 30px;
+}
+.amr{
+    text-align: center;
+    margin: 50px auto;
+
+
+}
+.amr h1{
+    font-style: italic;
+    font-size: 48px;
+    
+}
+.amr span {
+border: 5px solid black;
+background-color: black;
+color: white;
+font-weight:bold;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-style: italic;
+}
+.ah{
+    position: relative
+
+}
+.ah button{
+    position: absolute;
+    margin:50px;
+    bottom: 230px;
+    border: #b7b7b7 20PX solid;
+   
+}
+.ah button h3{
+   
+    background-color: #b7b7b7;
+}
+.ah img{
+    width: 100%;
+    
+
+}
+.ah p{
+    position: absolute;
+    margin:50px;
+   bottom: 300px;
+    color: #fef9f9;
+    font-size: 60px;
+}
+.ah h1{
+margin: 50px;
+bottom: 380px;
+ position: absolute;
+ font-size: 40px;
+color: #fef9f9;
+
+}
+.two-section{
+    display: flex;
+    background-color: #f1f1f1;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-top: 3%;
+    /* position: absolute; */
+}
+.one-section{
+    /* flex-direction: column; */
+    background-color: #fff;
+    width: 60%;
+    padding: 2%;
+    text-align: center;
+}
+.one-section button{
+    width: 12%;
+       border: #b7b7b7 10PX solid;
+}
+.two-bottoms{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+.three-bottoms{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+
+}
+.two-text{
+    padding-top: 5px;
+    text-align: center;
+    
+   
+}
+.one-section img{
+    width: 99%    
+}
+.two-text span{
+    opacity: 0.60;
+}
+.photo-two button{
+width: 12%;
+    border: #b7b7b7 10PX solid;
+}
+.photo-two{
+    padding-top: 3%;
+    padding-bottom: 15%;
+
+
+}
+.photo-two p{
+    padding: 3px;
+}
+.photo-two span{
+    opacity: 0.60;
+}
+.photo-three span{
+    opacity: 0.60;
+}
+.photo-three button{
+       border: #b7b7b7 10PX solid;
+       width: 12%;
+}
+/* ************another section*******
+***************************** */
+.another-section{
+    width: 30%;
+}
+.photo-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.phto-black{
+    display: flex;
+}
+
+.phto-black img{
+    width: 100%;
+}
+.black{
+    opacity: 0.5;
+    background-color: #0e0e0e;
+    width: 30%;
+    height: 28%;
+}
+.ppr2{
+    margin-top: 50px;
+    width: 100%;
+    height: 70px;
+    background-color: #0e0e0e;
+    color: #fff;
+    padding-left: 4%;
+    padding-top: 7%;
+}
+
+.ppr1{
+   
+    width: 100%;
+    height: 300px;
+    background-color: #9b9999;
+    border: 15px solid #fff;
+    text-align: center;
+}
+.ppr1 p{
+    margin-top: 38%;
+    font-size: 20px;
+}
+.ppr3 {
+    margin-top: 50px;
+    width: 100%;
+    height: 70px;
+    background-color: #0e0e0e;
+    color: #fff;
+    padding-left: 4%;
+    padding-top: 7%;
+}
+.ppr4 p span{
+padding: 25px; 
+margin: 3px;
+font-size: 18px;
+font-weight: 400;
+
+}
+.ppr4{
+   
+    width: 100%;
+    height:150px;
+    background-color: #ffffff;
+}
+
+.ppr6 img{
+width:162px;
+height: 127px;
+margin: 10px;
+
+}
+.ppr5 {
+    margin-top: 50px;
+    width: 100%;
+    height: 70px;
+    background-color: #0e0e0e;
+    color: #fff;
+    padding-left: 4%;
+    padding-top: 7%;
+}
+
+.ppr6{
+   
+    width: 100%;
+    height: 300px;
+    background-color: #ffffff;
+} 
+.ppr7 {
+    margin-top: 50px;
+    width: 100%;
+    height: 70px;
+    background-color: #0e0e0e;
+    color: #fff;
+    padding-left: 4%;
+    padding-top: 7%;
+}
+.ppr8 img{
+    width:40px;
+    height: 40px;
+    padding: 1.5%;
+    margin-top: 10px;
+opacity: 0.5;
+} 
+.ppr8{
+   
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+} 
+.ppr9 {
+    margin-top: 50px;
+    width: 100%;
+    height: 70px;
+    background-color: #0e0e0e;
+    color: #fff;
+    padding-left: 4%;
+    padding-top: 7%;
+}
+.ppr10 input{
+width: 100%;
+height: 45px;
+padding: 2%;
+margin: 5px 0px;
+}
+.ppr10 button{
+    width: 100%;
+height: 45px;
+font-size: 25px;
+background-color: #f44336;
+margin: 5px 0px;
+}
+.ppr10{
+   
+    width: 100%;
+    height: 170px;
+    background-color: #ffffff;
+} 
+
+
+.ppr1 p{
+    margin-top: 38%;
+    font-size: 20px;
+}
+
+.pop{
+    background-color: black;
+    color: #f1f1f1;
+    padding: 8%;
+}
+.pop2{
+background-color: #fff;
+}
+.pop-2 .photo0{
+width: 100%;
+height: 70px;
+background-color:#0e0e0e;
+margin-top: 40px;
+
+}
+.photo0 h4 {
+        color: #fff;
+        font-size: 20px;
+        padding-top: 6%;
+        padding-left: 3%;
+}
+
+.photo1 img{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    background-color:#fff;
+    position: relative;
+}
+.photo2 img{
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    background-color:#fff;
+    position: relative
+}
+.photo3 img{
+    padding: 10px;
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background-color:#fff;
+    position: relative
+}
+.photo4 img{
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    background-color:#fff;
+    position: relative
+}
+.photo1 p{
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 40px;
+}
+.photo1 h3{
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 18px;
+}
+.photo2 p{
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 40px;
+}
+.photo2 h3{
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 18px;
+}
+.photo3 p{
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 45px;
+}
+.photo3 h3{
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 18px;
+}
+.photo4 p{
+    margin-left: 100px;
+    margin-top: 40px;
+    position: absolute;
+}
+.photo4 h3{
+    position: absolute;
+    margin-left: 100px;
+    margin-top:18px;
+}
+/* *********footer end************* */
+
+
+ .fott{
+    width: 100%;
+    height: 180px;
+    background-color: #616161;
+    margin-top:0px;
+}
+.fott a button{
+    border: #0e0e0e 10px solid;
+    background-color: #000000;
+    color: #fff;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.fott p{
+    color: #ffff;
+    margin-left: 40px;
+    margin-top: 20px;
+}
